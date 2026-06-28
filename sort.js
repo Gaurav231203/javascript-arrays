@@ -1,5 +1,13 @@
 //array ko ek ordr mai sort karna
-let arr=[1,6,3,4,9,2,7,8,5]
+let arr=[1,63,31,4,99,24,71,8,55]
 console.log(arr);
-arr.sort();
-console.log(arr);
+let sr=arr.sort(function(a,b){
+    return a-b;
+});
+
+console.log(sr);
+let da=arr.sort(function(a,b){
+
+    return b-a;
+});
+console.log(da);
