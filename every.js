@@ -5,4 +5,4 @@ let arr = [ 10 , 50 , 60 , 30 , 80 ,90]
     return 15 < val;
 
  })
- console.log(evry)
+ console.log(evry);
