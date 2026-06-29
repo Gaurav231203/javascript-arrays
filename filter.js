@@ -3,5 +3,9 @@ let newarr=arr.filter(function(val){
      if (val % 2 == 0){
      return true}
     
+
+
+
+      
 });
 console.log(newarr);
